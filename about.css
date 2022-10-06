@@ -180,8 +180,9 @@ body {
         height: 30vh;
         border-radius: 50vh;
         border: white 1vh solid;
-        margin-right: 4rem;
+        margin-right: 5rem;
         margin-top: 30%;
+        margin-bottom: 35%;
     }
   
     .nav {
@@ -206,13 +207,16 @@ body {
     color: whitesmoke;
     font-size: 2rem;
     text-align: center;
+      margin-bottom:5%;
 }
 .header h1 {
+    text-align:center;
     padding-left: 0%;
     color: whitesmoke;
     font-size: 1.4vh;
-    margin-bottom: 32%
-    text-align: center;
+    margin-bottom: 32%;
+    margin-top:5%;
+    
 }
 .nxp h1 {
     padding-top: 2rem;
