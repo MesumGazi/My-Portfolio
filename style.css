@@ -294,6 +294,7 @@ padding-bottom: 1%;
 .smalltext h2 {
     font-size: 2.5rem;
     margin-top: -10%;
+    text-align: center;
 }
 .intro {
     padding: 1rem;
