@@ -273,7 +273,8 @@ padding-bottom: 1%;
         border-radius: 50vh;
         border: white 1vh solid;
         margin-right: 4rem;
-        margin-top: 1%;
+        margin-top: 15%;
+        margin-bottom: 25%;
     }
   .nav {
     display: flex;
