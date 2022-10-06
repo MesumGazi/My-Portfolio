@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing | Mesum Gazi</title>
+
+    <style>
+        body {
+            padding: 0%;
+            margin: 0%;
+            background-color: rgb(14, 14, 14);
+            font-family: 'Raleway', sans-serif;
+
+        }
+
+
+
+
+        .nav {
+
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: space-between;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            padding-left: 62%;
+            margin-top: 0%;
+
+        }
+
+
+
+        .nav ul li {
+
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+
+        .bar li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+
+        .bar li a:hover {
+            transition: all 200ms ease-in;
+            font-size: 1.5rem;
+
+        }
+
+        .bar li a:not(:hover) {
+            transition: all 200ms ease-out;
+            font-size: 1rem;
+
+        }
+
+        .photo img {
+
+            float: right;
+            width: 40vh;
+            height: 40vh;
+            border-radius: 50vh;
+            border: white 1vh solid;
+            margin: 150px 100px;
+            
+        }
+
+        .photo img:hover {
+            transition: all 1s;
+            transform: rotate(360deg);
+            border: 10px solid rgb(215, 139, 67);
+        }
+
+        .photo img:not(:hover) {
+
+            transition: all 1s;
+            transform: rotate(0deg);
+        }
+
+
+
+        .header p {
+            margin-top: 15%;
+            padding-left: 10%;
+            color: whitesmoke;
+            font-size: 4rem;
+        }
+
+
+        .header h3 {
+            padding-left: 11%;
+            color: whitesmoke;
+            font-size: 1rem;
+        }
+
+
+        @media only screen and (max-width: 600px) and (max-width: 800px) {
+            .photo img {
+                float: right;
+                width: 30vh;
+                height: 30vh;
+                border-radius: 50vh;
+                border: white 1vh solid;
+                margin-right: 4rem;
+                margin-top: 30%;
+            }
+
+            .nav {
+                display: flex;
+                flex-direction: column;
+                color: white;
+                justify-content: space-between;
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+                padding-left: 4%;
+                margin-top: 0%;
+            }
+
+            .nav ul li {
+                list-style-type: none;
+                display: inline-block;
+                padding: 13px 5px;
+            }
+
+            .header p {
+                margin-top: 10%;
+                padding-left: 5%;
+                color: whitesmoke;
+                font-size: 2rem;
+            }
+
+            .header h3 {
+                padding-left: 6%;
+                color: whitesmoke;
+                font-size: 1.5vh;
+            }
+        }
+    </style>
+</head>
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:ital,wght@0,100;0,200;1,100&display=swap"
+    rel="stylesheet">
+
+<body>
+
+
+    <div class="nav">
+        <ul class="bar">
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="writing.html">WRITING </a></li>
+        </ul>
+
+    </div>
+
+
+    <div class="photo">
+
+        <img src="./img/portfolio.jpg" alt="My photo">
+
+    </div>
+
+
+
+    <div class="header">
+
+        <p>Here lies my blog</p>
+
+        <h3>...is what this page might say some day.</h3>
+    </div>
+</body>
+
+</html>
